@@ -1,11 +1,10 @@
 .login-area{
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .login-box{
     text-align: center;
 }
-.login-box p{}
 
 .customAuth {
     padding: 20px;
@@ -25,11 +24,11 @@
 .form-control:focus,.form-control:hover
 {
     box-shadow: none;
-    border-bottom: 1px solid tomato i !important;
+    border-bottom: 1px solid #71ba58 i !important;
     padding-left: 10px;
 }
 .signing {
-    background-color: tomato;
+    background-color: #71ba58;
     display: block;
     width: 100%;
     border: none;
@@ -39,7 +38,7 @@
 
 .form-buttons-area p span{
     cursor:pointer;
-    color:tomato;
+    color:#71ba58;
     font-weight: bold;
 }
 
@@ -48,10 +47,6 @@
     font-size: 20px;
     margin: 0 0 30px;
 }
-.customAuth form{}
-.customAuth input{}
-
-.socialAuth{}
 
 .socialAuth button{
     display: block;
@@ -59,14 +54,12 @@
     width: 250px;
     border-radius: 40px;
 }
-.socialAuth .fb{}
-.socialAuth .google{}
 
 .remember-me{
     margin-bottom: 50px;
 }
 .remember-me a{
-    color:tomato;
+    color:#71ba58;
     text-decoration: underline;
 
 }

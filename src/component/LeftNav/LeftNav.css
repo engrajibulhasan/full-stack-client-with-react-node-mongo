@@ -14,8 +14,6 @@ html,body,.addProduct,.addProduct>.row{
     margin: 25px 0;
 }
 
-.admin-left ul{}
-.admin-left ul li{}
 .admin-left ul li a{
     color: #ffffff;
     transition:500ms;

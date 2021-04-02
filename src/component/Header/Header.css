@@ -1,7 +1,21 @@
 header{
     width: 100%;
-    background-image: linear-gradient(red, tomato);
+    background-image: linear-gradient(#52a735, #75c05b);
     z-index:999
+}
+
+.avatar {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(254,254,254,0.5);
+    overflow: hidden;
+    border-radius: 50%;
+    float:right;
+    margin-left: 10px;
+}
+.avatar img {
+    width: 100%;
 }
 
 .navbar-brand a{

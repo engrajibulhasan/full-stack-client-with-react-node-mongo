@@ -9,7 +9,7 @@ const Orders = () => {
 
     //Getting Orders based on email
     useEffect(()=>{
-        const url=`http://localhost:5000/showOrders/${email}`;
+        const url=`https://arcane-mountain-19251.herokuapp.com/showOrders/${email}`;
         fetch(url)
         .then(res=>res.json())
         .then(data=>{

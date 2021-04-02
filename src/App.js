@@ -23,6 +23,7 @@ import Orders from './component/Orders/Orders';
 import ManageProduct from './component/ManageProduct/ManageProduct';
 import Checkout from './component/Checkout/Checkout';
 import Deals from './component/Deals/Deals';
+import NotFound from './component/NotFound/NotFound';
 
 
 export const UserContext=createContext();
@@ -73,6 +74,9 @@ function App() {
             <ManageProduct></ManageProduct>
           </PrivateRoute>
 
+          <Route path="/*">
+            <NotFound></NotFound>
+          </Route>
           
         </Switch>
       </>

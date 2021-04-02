@@ -5,20 +5,7 @@ const ShowOrders = (props) => {
     const {productId,orderNumber,quantity,totalPrice,discount,deliveryCharge,orderDate}=props.dataObject;
     const total=(parseInt(totalPrice)+parseInt(deliveryCharge))-parseInt(discount);
 
-    //Getting Product Info based on productId
-    // useEffect(()=>{
-    //     const url=`http://localhost:5000/showProductById/${productId}`;
-    //     fetch(url)
-    //     .then(res=>res.json())
-    //     .then(data=>{
-    //         //console.log(data);
-    //         if(data){
-    //             console.log(data)
-    //             setProductInfo(data);
-    //         }
-    //     })
-    // },[productId])
-
+    //Formating Date
     const dateFormating=(theDate)=>{
         return (new Date(theDate)).toDateString('dd/MM/YY');
     }

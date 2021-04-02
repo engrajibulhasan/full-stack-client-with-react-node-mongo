@@ -7,7 +7,7 @@ const Home = () => {
     
     const [products,setProducts]=useState([]);
     useEffect(()=>{
-        const url=`http://localhost:5000/products`;
+        const url=`https://arcane-mountain-19251.herokuapp.com/products`;
         fetch(url)
         .then(res=>res.json())
         .then(data=>{

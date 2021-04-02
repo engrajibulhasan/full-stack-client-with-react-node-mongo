@@ -1,0 +1,10 @@
+.not-found-area{
+    text-align: center;
+    margin: 200px auto;
+}
+.not-found-area svg{
+    font-size: 200px;
+}
+.not-found-area p{
+    color: red;
+}

@@ -14,7 +14,7 @@ const Checkout = () => {
 
     //Getting Data based on ID
     useEffect(()=>{
-        const url=`http://localhost:5000/showProductById/${id}`;
+        const url=`https://arcane-mountain-19251.herokuapp.com/showProductById/${id}`;
         fetch(url)
         .then(res=>res.json())
         .then(data=>{
@@ -41,7 +41,7 @@ const Checkout = () => {
         }
 
         //Sending Data to API
-        const url=`http://localhost:5000/addOrder`;
+        const url=`https://arcane-mountain-19251.herokuapp.com/addOrder`;
         fetch(url,{
             method:"POST",
             headers:{

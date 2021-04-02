@@ -18,7 +18,7 @@ const Admin = () => {
             image:imageUrl
         }
         console.log(productDetail);
-        const url=`http://localhost:5000/addProduct`;
+        const url=`https://arcane-mountain-19251.herokuapp.com/addProduct`;
         fetch(url,{
             method:"POST",
             headers:{"Content-type":"application/json"},

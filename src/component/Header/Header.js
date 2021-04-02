@@ -22,7 +22,14 @@ const Header = () => {
   
    //Importing UserContext variable  from App.js  into useContext() hook here
   const [loggedInUser,setLoggedInUser]=useContext(UserContext);
-  console.log(loggedInUser.name?loggedInUser.name : loggedInUser.displayName);
+  let photo='https://i.ibb.co/jJW1p1K/user.png';
+  if(loggedInUser.photo){
+    photo=loggedInUser.photo;
+
+  }else{
+       
+  }
+  //console.log(loggedInUser.name?loggedInUser.name : loggedInUser.displayName);
     return (
         <header>
             <Navbar expand="lg">
@@ -36,7 +43,7 @@ const Header = () => {
                     <Link to="/admin" className="nav-link">Admin</Link>
                     <Link to="/deals" className="nav-link">Deals</Link>
                     {
-                        loggedInUser.email? <><Link to="/destination" style={{fontWeight:'bold'}} className="nav-link">{loggedInUser.name ? loggedInUser.name : loggedInUser.displayName}</Link> <button onClick={signOut} className="btn btn-danger">Sign out </button></>:<Link to="/login" className="nav-link btn btn-light">Login</Link>
+                        loggedInUser.email? <><Link to="/orders" style={{fontWeight:'bold'}} className="nav-link"><div className="avatar"><img src={photo} alt="user avatar"/></div><span className="user-name"> {loggedInUser.name ? loggedInUser.name : loggedInUser.displayName}</span></Link> <button onClick={signOut} className="btn btn-danger">Sign out </button></>:<Link to="/login" className="nav-link btn btn-light">Login</Link>
                     }
                     
                     </Nav>
