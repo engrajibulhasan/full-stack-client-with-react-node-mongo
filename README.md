@@ -13,7 +13,7 @@ Monis Collection is a Simple E-commerce App
 
 
 -You can   [visit Demo Site By Click in here](https://bengal-rider.web.app/)
--Also [Git Code Link ] (https://bengal-rider.web.app/)
+-Also Server Code https://bengal-rider.web.app/
 
 ------------
 With Thanks 
