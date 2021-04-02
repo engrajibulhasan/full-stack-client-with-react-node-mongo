@@ -1,0 +1,61 @@
+[{
+    "id":1,
+    "vehicle":"bike",
+    "capacity": 2,
+    "charge": 45,
+    "image": "https://i.ibb.co/FKf2Z0c/bike2.png"
+  }, {
+    "id":2,
+    "vehicle":"car",
+    "capacity": 4,
+    "charge": 67,
+    "image": "https://i.ibb.co/yFJS9qF/car.png"
+  }, {
+    "id":3,
+    "vehicle":"car",
+    "capacity": 5,
+    "charge": 70,
+    "image": "https://i.ibb.co/CMT65Dg/car-png-images-1.png"
+  }, {
+    "id":4,
+    "vehicle":"train",
+    "capacity": 1200,
+    "charge": 450,
+    "image": "https://i.ibb.co/4TgGTPz/train.jpg"
+  },{
+    "id":5,
+    "vehicle":"bike",
+    "capacity": 2,
+    "charge": 45,
+    "image": "https://i.ibb.co/0jrRRD0/bike.png"
+  }, {
+    "id":6,
+    "vehicle":"car",
+    "capacity": 4,
+    "charge": 67,
+    "image": "https://i.ibb.co/CMT65Dg/car-png-images-1.png"
+  }, {
+    "id":7,
+    "vehicle":"bus",
+    "capacity": 42,
+    "charge": 270,
+    "image": "https://i.ibb.co/R64m1PX/bus.jpg"
+  }, {
+    "id":8,
+    "vehicle":"bike",
+    "capacity": 1,
+    "charge": 40,
+    "image": "https://i.ibb.co/FKf2Z0c/bike2.png"
+  },{
+    "id":9,
+    "vehicle":"bike",
+    "capacity": 2,
+    "charge": 45,
+    "image": "https://i.ibb.co/FKf2Z0c/bike2.png"
+  }, {
+    "id":10,
+    "vehicle":"car",
+    "capacity": 4,
+    "charge": 67,
+    "image": "https://i.ibb.co/yFJS9qF/car.png"
+  }]

@@ -1,0 +1,38 @@
+html,body,.addProduct,.addProduct>.row{
+    height: 100%;
+}
+.admin-left {
+    background-color: #203d37;
+    height: 100%;
+}
+.admin-left h2{
+    color: white;
+    margin: 25px 0;
+}
+.admin-right h2{
+    color: black;
+    margin: 25px 0;
+}
+
+.admin-left ul{}
+.admin-left ul li{}
+.admin-left ul li a{
+    color: #ffffff;
+    transition:500ms;
+}
+.admin-left ul li a svg{
+    margin-right: 10px;
+    transition: 500ms;
+}
+.admin-left ul li a:hover{
+    color: tomato;
+}
+.admin-left ul li a:hover svg{
+    transform: rotate(360deg);
+}
+
+@media (max-width: 767.98px) {
+    html,body,.addProduct,.addProduct>.row{
+        height: auto;
+    }
+}

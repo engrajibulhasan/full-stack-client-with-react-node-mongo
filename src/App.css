@@ -1,0 +1,6 @@
+html,body,body>div{
+  height: 100%;
+}
+a,a:hover{
+  text-decoration: none;
+}

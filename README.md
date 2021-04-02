@@ -12,12 +12,12 @@ Monis Collection is a Simple E-commerce App
 - React Bootstrap for responsive design & Icon from Font Awesome
 
 
-You can   [visit Demo Site By Click in here](https://bengal-rider.web.app/)
-[Git Code Link ] (https://bengal-rider.web.app/)
+-You can   [visit Demo Site By Click in here](https://bengal-rider.web.app/)
+-Also [Git Code Link ] (https://bengal-rider.web.app/)
 
 ------------
 With Thanks 
 ### Md. Rajibul Hasan- Developer
 ### Email: engrajibulhasan@gmail.com
 
-# full-stack-client-appsmakerbd
+

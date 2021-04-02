@@ -1,0 +1,21 @@
+.product-box{}
+.product-box .inner-box{}
+.product-box .img-box {
+    height: 310px;
+    overflow: hidden;
+}
+.product-box .img-box img{
+    width: 100%;
+}
+.product-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 50px;
+}
+.product-box .product-footer{}
+.product-box .product-footer span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-box .product-footer a{}
